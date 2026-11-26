@@ -78,7 +78,7 @@
 <body>
 <main>
 <h1>STYLISH KEYBOARD PRIVACY POLICY</h1>
-<p class="date">Effective date: November 25, 2026</p>
+<p class="date">Effective date: November 26, 2026</p>
 <p>This privacy policy explains what information the Stylish Keyboard app for iPhone and iPad (the "app") and the Stylish Keyboard keyboard that comes with it (the "keyboard") use, why, where it is kept, who it is shared with, and the choices you have. "We", "us" and "our" mean Shubham Mahato, the developer of Stylish Keyboard.</p>
 <p>We wrote this policy to be read, not skimmed past. If anything is unclear, write to us at <a href="mailto:contactshubhamtripz@gmail.com">contactshubhamtripz@gmail.com</a>.</p>
 <h2>THE SHORT VERSION</h2>
@@ -87,7 +87,7 @@
 <li>The keyboard works fully without Full Access and without an internet connection. Full Access only turns on optional extras, such as the clipboard, stickers and key sounds.</li>
 <li>The keyboard itself has no analytics, no ads and no trackers, and it makes no network requests.</li>
 <li>The app (not the keyboard) sends usage statistics and crash reports, not linked to who you are, to Google Firebase, so we can see which features are used and fix crashes. You can turn each off at any time in the app: Settings → Privacy.</li>
-<li>The app also downloads its own settings from Google Firebase (for example, to tell you when an update is needed).</li>
+<li>The app also downloads its own settings from Google Firebase (for example, to tell you when an update is needed), word lists for languages you type in English letters from our word list server, and sticker packs from our sticker server.</li>
 <li>There are no accounts, no ads, no tracking across apps or websites, and we never sell your information.</li>
 <li>What you save in the app (your words, copies, details and photo theme) stays on your device, and you can see and delete it in the app.</li>
 </ul>
@@ -129,6 +129,8 @@
 <li>Recent copies (on by default, with Full Access): the last 20 texts you copied, each for 24 hours, so you can paste them again from the clipboard panel. Copies that a password manager marks as private are never kept. You can delete one or all of them in the clipboard panel or in the app (Settings → Recent copies), or turn the feature off.</li>
 <li><strong>Quick replies:</strong> messages you send often, edited in the app (Settings → Quick replies).</li>
 <li><strong>My details:</strong> your name, phone number, email addresses and home and work addresses, only the ones you add in the app (Settings → My details), so the keyboard can offer them in fields that ask for them. You can change or remove each one there.</li>
+<li><strong>Word lists for your languages:</strong> if you type in English letters in a language such as Kannada or Tamil with English (India) on, its word list, downloaded by the app (see section 4e). Turning the language off removes it.</li>
+<li><strong>Downloaded sticker packs:</strong> extra stickers the app downloads (see section 4f), so the keyboard's and the app's Stickers can show them. They contain no information about you.</li>
 <li><strong>Your photo theme:</strong> a copy of the photo you pick, sized for the keyboard. The app gets only that photo from your library (iOS's photo picker needs no access to your library). Removing the photo theme deletes the copy.</li>
 <li><strong>Small app records:</strong> whether setup is done, which prompts you have seen, a random number used to roll new features out gradually, when the app last downloaded its settings, and how many times an update prompt was shown.</li>
 </ul>
@@ -147,6 +149,10 @@
 <p>The app downloads small settings from us, such as which app versions need an update, and switches that turn a feature on or off. To pick the right settings, Firebase receives a random installation identifier, the app's version, the iOS version, your device's language, region and time zone, and, when usage statistics have set them, the app's applied theme and languages. The app needs these settings to work correctly (for example, to tell you about a required update), so this happens whether or not usage statistics are on. It happens only from the app, at most about once an hour while you use it. Nothing about you comes back, only our settings.</p>
 <h3>d) Your location, only when you ask (Apple)</h3>
 <p>With Full Access and iOS's location permission, tapping Location in the keyboard's menu reads your location once and types your address into your message. To turn the coordinates into an address, iOS sends them to Apple's address service, under Apple's privacy policy. Your location is never kept and never sent to us. If Precise Location is off, only your area is typed.</p>
+<h3>e) Word lists for your languages (our word list server)</h3>
+<p>If English (India) and a language such as Kannada, Tamil, Telugu, Bengali or Marathi are both on, the app downloads that language's word list, so the keyboard can suggest its words typed in English letters. The app asks our word list server (hosted on GitHub Pages) for a small index file and the list. These are plain file requests: nothing about you, your typing or your device is sent with them. Like any web request, the server sees your device's internet address. This happens only from the app, only when a list is missing or a day has passed, never from the keyboard.</p>
+<h3>f) Sticker packs (our sticker server)</h3>
+<p>The app downloads extra sticker packs (Microsoft's Fluent Emoji 3D pictures, credited in the app's Acknowledgements) so the keyboard can offer them. The app asks our sticker server (hosted on GitHub Pages) for a small index file and the packs it lists. These are plain file requests: nothing about you, your typing or your device is sent with them. Like any web request, the server sees your device's internet address. This happens only from the app, when it opens, at most every few hours, and a pack only when it is new or updated, never from the keyboard.</p>
 <p><strong>What we never collect:</strong> your name, email address, phone number or contacts; the text you type, copy or paste; your passwords; your photos (beyond the one copy you choose for a theme, which stays on your device); your precise location; or the advertising identifier (IDFA). The app has no sign-in.</p>
 <p>The analytics we use does not use the advertising identifier, does not collect the identifier for vendors (IDFV), and has advertising features turned off.</p>
 <h2>5. HOW WE USE INFORMATION</h2>
@@ -161,6 +167,7 @@
 <ul>
 <li>Google (Firebase), our service provider for usage statistics, crash reports and the app's settings, processes the information in section 4 on our behalf, under its terms for Firebase. Google is required by those terms to protect this information at least as well as this policy does. Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a> — Firebase and privacy: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
 <li>Apple, when you use location sharing (section 4d) and when the app opens the App Store page to update.</li>
+<li>GitHub, which hosts our word list and sticker servers (sections 4e and 4f), receives plain file requests and sends the lists and packs. We send it nothing about you.</li>
 <li><strong>When required by law:</strong> we may disclose information if a valid legal request requires it.</li>
 </ul>
 <p>We share no information with advertisers, data brokers or anyone else, and we do not sell or "share" personal information as those words are used in California law.</p>
